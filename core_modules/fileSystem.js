@@ -62,6 +62,7 @@
 // fs.mkdir('studyNotes',(err)=> {
 //     if(err) throw err
 // });
+
 //---------- 2. CREATING A FILE ----------------
 // fs.writeFile('myfile.txt','I created the file and inserted this text.',(err)=> {
 //     if(err) throw err
