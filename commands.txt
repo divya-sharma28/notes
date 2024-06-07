@@ -1,0 +1,23 @@
+//terminal/command prompt general commands
+
+    1. To open Terminal in VS code: Ctrl + (` back tick/ tilde ~)
+    2. To create a folder: mkdir myfolder OR md myfolder
+    3. To create a file: New-Item index.js
+    4. To delete a file: del index.js
+    5. To delete a folder: rmdir myfolder OR rd myfoler
+    6. To check files & folders in the current folder (same level): dir
+    7. To check entire files & folders tree structure in the current folder: tree /f
+    8. To clear cmd prompt: clear OR cls
+
+// REPL commands- Read Evaluate Print Loop 
+
+    1. To start REPL: node
+    2. '_' saves latest value
+    3. You can write multiline code such as loops
+    4. To check all commands: .help
+    5. To open editor mode: .editor
+    6. To load file content to console: .load file_name
+    7. To save console content to file: .save file_name
+    8. Clicking tab btn twice shows all node properties and methods
+    9. You can write a method or property name to see its details. Ex: fs,http,etc.
+    10.To exit REPL: ctrl + D/C OR .exit 
