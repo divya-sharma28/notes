@@ -6,7 +6,7 @@
 //********************************    SYNCHRONOUS    *********************************
 
 //--------- 1. CREATING A FOLDER ----------
-// fs.mkdirSync('SYNC')
+// fs.mkdirSync('studyNotes')
 
 //--------- 2. CREATING A FILE -------------
 // fs.writeFileSync('demo.txt','I have created this file from scratch!')
@@ -50,7 +50,7 @@
 // fs.unlinkSync('newdemo.txt');
 
 // ----------------- 8. DELETE THE FOLDER --------------
-// fs.rmdirSync('SYNC')
+// fs.rmdirSync('studyNotes')
 
 //********************************    ASYNCHRONOUS    *********************************
 
@@ -113,7 +113,7 @@
 // });
 
 // ----------- 8. DELETE THE FOLDER ------------------
-// fs.rmdir('ASYNC', (err)=>{
+// fs.rmdir('studyNotes', (err)=>{
 //     if(err) throw err;
 //     console.log('Folder deleted successfully!')
 // })
